@@ -1,12 +1,16 @@
 <resources>
     <string name="app_name">CalibrationWizard</string>
-    <string name="true_button">True</string>
-    <string name="false_button">False</string>
     <string name="next_button">Next</string>
-    <string name="correct_toast">Correct!</string>
-    <string name="incorrect_toast">Incorrect!</string>
-    <string name="warning_text">Are you SURE you want to do this?</string>
-    <string name="show_answer_button">Show Answer</string>
-    <string name="cheat_button">Cheat!</string>
-    <string name="judgment_toast">Cheating is wrong.</string>
+    <string name="prev_button">Previous</string>
+    <string name="step_zero">0) Welcome to the Etch a Sketch Calibration Wizard. [insert some weird clipart of a wizard for aesthetic purposes]</string>
+    <string name="step_one">1) First, connect via bluetooth to the raspberry pi [insert appropriate stuff for bluetooth here]</string>
+    <string name="step_two">2) I will now adjust Z height. Please clear the area so I can raise the Z [insert button that says "raise Z"]</string>
+    <string name="step_three">3) Please put medium on bed so I can calibrate Z [insert a button that says "calibrate Z"] </string>
+    <string name="step_four">4) Z calibrated successfully. I will now calibrate X and Y. [just a NEXT button here]</string>
+    <string name="step_five_nine">5-9) [this will repeat itself four times with different wording] use buttons to adjust [either top right, top left, bottom left, bottom right] corner of material.
+        [laser cutter is at the lowest setting at this point, so you can see where it is pointed without damaging anything.
+        in theory. User has as UP, DOWN, LEFT, and RIGHT buttons to move the laser for calibration, and can press a "finish"
+        button when finished</string>
+    <string name="step_ten">10) See README for all the tasks app will do when calibrated. The will be more buttons and other fun stuffs here.</string>
+    <string name="step_eight">Chris will eventually notice me</string>
 </resources>
